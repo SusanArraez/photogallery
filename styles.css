@@ -182,10 +182,21 @@ footer{
     body{
         width: 880px;
     }
+    h1{
+        background-color: #ffffff;
+        text-transform: uppercase;
+        text-align:left;
+        font-size: 3em;
+        color: #007d7b;
+        height: 30px;  
+        padding-top: 20px;
+    }
     nav ul{
-        display: inline-flex;
-        gap: 10px;
+        display:inline-flex;
+        gap: 20px;
         justify-content: center;
+        position: relative;
+        left: 228px;
     }
     div{
         display: grid;
@@ -196,5 +207,57 @@ footer{
         padding: 10px;
 
     }
+    input, textarea{
+        padding: 0.25rem;
+        width: 748px;
+        height: 25px;
+        margin: 0 auto;
+        border: none;
+        background-color: #ffffff;
+    }
+}
+@media screen and (min-width:  1300px){
+    body{
+        width: 1300px;
+        margin: 0 auto;
+    }
+    h1{
+        background-color: #ffffff;
+        text-transform: uppercase;
+        text-align:left;
+        font-size: 3em;
+        color: #007d7b;
+        height: 30px;  
+        padding-top: 20px;
+    }
+    nav ul{
+        display:inline-flex;
+        gap: 20px;
+        float: right;
+        position: relative;
+        left: -6px;
+    }
+    div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    figure{
+        margin: 0 auto;
+        padding: 6px;
+    }
+    label{
+        position: relative;
+        left: 89px;
+        bottom: -11px;
+    }
+    input, textarea{
+        padding: 0.25rem;
+        width: 1115px;
+        height: 25px;
+        margin: 0 auto;
+        border: none;
+        background-color: #ffffff;
+    }
+    
 }
 
